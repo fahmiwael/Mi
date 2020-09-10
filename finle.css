@@ -1,0 +1,116 @@
+:root {
+  --first:#786ebf;
+  --primary: #4737b3;
+  --secondary: #191E2D;
+  --background: #FFFFFF;
+  --secondary-background: #F5F5F5;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body{
+  background-color: var(--secondary-background);
+
+}
+section{
+  height: 78rem;
+}
+video{
+  background: var(--secondary-background);
+  height: 38rem;
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  margin-left : 50rem;
+  border-radius: 10%;
+}
+header{
+  margin-left: 45rem;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+nav{
+  display: flex;
+  margin-left: 5rem;
+  margin-top: 3px;
+  margin-bottom: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  font-family:unset;
+  font-size:3rem;
+  background-color: var(--first);
+  width: 20rem;
+  table-layout:vertical;*/
+  margin-right: 3rem;
+  box-shadow: 30px 30px 50px rgba(0, 0, 0, 0.5);
+   /*font-style: italic;*/
+  /*border-radius: 50%;*/
+}
+h1,h2{
+  font-family: unset, sans-serif;
+  box-shadow: 30px 30px 50px rgba(0, 0, 0, 0.2);
+  background: var(--background);
+  /*border-radius: 50%;*/
+  align-items: center;
+  padding: 2rem;
+  display: flex;
+  margin-top: 3rem;
+  margin-right: 16rem;
+  margin-left: 20rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  color:#5345b3 ;
+  text-transform: uppercase;
+  font-style: italic;
+}
+p{
+  font-family:monospace;
+  font-size: 4rem;
+  font-style: italic;
+  color:black ;
+  margin-left: 50rem;
+
+}
+figure{
+  height: 100vh;/*100% size in screen*/
+}
+.img{
+  width:25rem;
+  height:25rem;
+  border-radius: 50%;
+  padding: 5rem;
+  
+}
+.Expereince{
+  font-family: monospace;
+  font-size: 3rem;
+  color:black ;
+   margin-left: 5rem;
+}
+.Skils{
+  font-family: monospace;
+  font-size: 3rem;
+  color:black ;
+   margin-left: 5rem;
+}
+.video{
+  height: 65rem;
+}
+.link{
+  margin-left: 70rem;
+}
